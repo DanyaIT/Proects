@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1550850839-8dc894ed385a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1175&q=80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 500px;
+  flex-wrap: wrap;
+
+}
+
+.square{
+  width: 16px;
+  height: 16px;
+  background: rgb(59, 58, 55);
+  margin:2px;
+  transition: 1s ease-in;
+  box-shadow: 0 0 2px #000;
+  border-radius: 100%;
+}
+
+.square:hover{
+  transition-duration: 0s;
+}
